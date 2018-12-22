@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="269.558" height="196.659" viewBox="0 0 269.558 196.659">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="269.558" height="196.659" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="269.558" height="126.955" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-496.577 -329.609)">
+      <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(496.577 399.313)" clip-path="url(#clip-path-2)">
+        <g transform="translate(-496.577 -399.313)">
+          <path id="Union_7" data-name="Union 7" d="M-6785,755.844l32-82.608L-6644.049,630-6785,755.844l142.692-125.768,124.934,125.768Z" transform="translate(7282.308 -230.076)" fill="#2fcb89" stroke="#707070" stroke-width="1"/>
+        </g>
+      </g>
+      <path id="Path_2711" data-name="Path 2711" d="M7417.1-278.526c52.066-29.553-42.224-10,0-37.918s-4.911-8.667,5.378-31.01" transform="translate(-6774.75 678.526)" fill="none" stroke="#2fcb89" stroke-width="7"/>
+    </g>
+  </g>
+</svg>
