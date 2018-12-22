@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="144" viewBox="0 0 375 144">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="375" height="144" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-265.5 -406.5)">
+      <line id="Line_1" data-name="Line 1" x2="375" transform="translate(265.5 415.5)" fill="none" stroke="rgba(30,175,221,0.88)" stroke-width="2"/>
+      <line id="Line_2" data-name="Line 2" x2="375" transform="translate(265.5 407.5)" fill="none" stroke="#0caadc" stroke-width="2"/>
+      <line id="Line_3" data-name="Line 3" x2="375" transform="translate(265.5 423.5)" fill="none" stroke="rgba(52,185,227,0.69)" stroke-width="2"/>
+      <line id="Line_4" data-name="Line 4" x2="375" transform="translate(265.5 434.5)" fill="none" stroke="rgba(95,195,227,0.89)" stroke-width="2"/>
+      <line id="Line_5" data-name="Line 5" x2="375" transform="translate(265.5 449.5)" fill="none" stroke="rgba(106,199,229,0.76)" stroke-width="2"/>
+      <line id="Line_6" data-name="Line 6" x2="375" transform="translate(265.5 468.5)" fill="none" stroke="rgba(117,202,229,0.74)" stroke-width="2"/>
+      <line id="Line_7" data-name="Line 7" x2="375" transform="translate(265.5 491.5)" fill="none" stroke="rgba(141,207,227,0.79)" stroke-width="2"/>
+      <line id="Line_8" data-name="Line 8" x2="375" transform="translate(265.5 518.5)" fill="none" stroke="rgba(217,235,240,0.74)" stroke-width="2"/>
+      <line id="Line_9" data-name="Line 9" x2="375" transform="translate(265.5 549.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
