@@ -15,11 +15,11 @@ window.onload = function() {
 	$('.main-displaybox-project-box').hover(
 		// Hover in function
 		function(){
-			$('.displaybox2').css({'opacity': .85});
+			$('.displaybox2').css({'display': 'flex', 'opacity': .85});
 		},
 		//Hover out function
 		function (){
-			$('.displaybox2').css('opacity', 0);
+			$('.displaybox2').css({'display': 'none', 'opacity': 0});
 		}
 	);
 }

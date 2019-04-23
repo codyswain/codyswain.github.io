@@ -114,6 +114,7 @@ body {
 }
 
 .displaybox2 {
+	display: none;
 	opacity: 0;
 	position: absolute;
 	right: 8%;
@@ -126,7 +127,6 @@ body {
 
 	border-radius: 2em;
 
-	display: flex;
 	align-items: center;
 	justify-content: center;
 
