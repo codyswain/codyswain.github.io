@@ -24,7 +24,7 @@ body {
 	margin-right: 3em;
 
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 300;
 	font-family: roboto;
 }
 
@@ -70,6 +70,7 @@ body {
 	border-radius: 1em;
 	padding-top: 1em;
 	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .main-displaybox-text {
@@ -79,6 +80,69 @@ body {
 	font-family: roboto;
 	font-weight: 400;
 }
+
+.main-displaybox-projects-wrapper {
+/*	background-color: lightblue;*/
+	margin: auto;
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: column;*/
+
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-displaybox-project-box {
+	width: 30%;
+	height: 40%;
+	/*border: 1px solid black;*/
+	border-radius: .3em;
+	background-color: green;
+
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.main-displaybox-project-box:hover {
+	opacity: .9;
+	cursor: pointer;
+}
+
+.displaybox2 {
+	opacity: 0;
+	position: absolute;
+	right: 8%;
+	top: 30%;
+	width: 45em;
+	height: 45em;
+	background-color: white;
+
+	transition: all .1s ease;
+
+	border-radius: 2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	-webkit-animation:spin 100s linear infinite;
+    -moz-animation:spin 100s linear infinite;
+    animation:spin 100s linear infinite;
+}
+
+.displaybox2 p {
+	font-size: 12px;
+	font-family: roboto;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 hr {
     display: block;
