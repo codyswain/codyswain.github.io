@@ -65,11 +65,11 @@ body {
 
 .main-displaybox {
     position: absolute;
-    top: 27em;
+    top: 36%;
     left: 6%;
     width: 32%;
-    height: 23em;
-    border-radius: 1em;
+    height: 50%;
+    border-radius: .4em;
     background-color: white;
     padding-top: 1em;
     padding-left: 2em;
@@ -79,7 +79,7 @@ body {
 .main-displaybox-header-text {
     margin-top: 0;
     margin-bottom: .2em;
-    font-size: 30px;
+    font-size: 18px;
     font-family: roboto;
     font-weight: 400;
 }
@@ -93,7 +93,9 @@ body {
 }
 
 .blog-list {
-    font-size: 18px;
+    padding: 0; 
+    list-style-type: none;
+    font-size: 14px;
 }
 
 .main-displaybox-project-box {
@@ -202,27 +204,27 @@ hr {
 }
 
 #project1 {
-    margin: 5em;
+    margin: 4em;
     height: 40.5em;
-    width: 30em;
+    width: 28em;
     background-image: linear-gradient(-90deg,#5a40d8,#d84add);
     border-radius: 1em;
 	padding: 1em;
 
 }
 #project2 {
-    margin: 5em;
+    margin: 4em;
     height: 40.5em;
-    width: 30em;
+    width: 28em;
     background-image: linear-gradient(-90deg,#4064d8,#4ad8dd);
     border-radius: 1em;
     padding: 1em;
 }
 #project3 {
-    margin: 5em;
+    margin: 4em;
     height: 40.5em;
-    width: 30em;
-     background-image: linear-gradient(-90deg,#0da382,#67e44e);
+    width: 28em;
+    background-image: linear-gradient(-90deg,#0da382,#67e44e);
     border-radius: 1em;
     padding: 1em;
 }
@@ -292,11 +294,19 @@ hr {
     .main-particles {
     }
     .main-displaybox {
-        margin-top: 1em;
-        height: 60%;
+        margin: 0;
+        top: 24%;
+        height: 70%;
+        border-radius: 2em;
+    }
+    .main-displaybox-header-text {
+        font-size: 4em;
+    }
+    .blog-list {
+        font-size: 3em;
     }
     .main-text-title {
-        padding-top: 10%;
+        padding-top: 2%;
         left: 0;
         width: 100%;
         height: 95%;
@@ -306,8 +316,7 @@ hr {
         color: white;
         display: flex;
         justify-content: center;
-
-        font-size: 2.2em;
+        font-size: 4em;
     }
 
     .main-displaybox {
@@ -315,22 +324,19 @@ hr {
     }
 
     .navbar {
-        height: 10%;
+        height: 8%;
         width: 100%;
-        flex-direction: column;
-        justify-content: space-around;
     }
     .nav-title {
-        margin-top: .8em;
-        font-size: 2em;
+        display: none;
     }
     .navbar ul {
-        margin-left: 3.8em;
     }
     .navbar li {
+        margin: .35em;
     }
     .nav-button {
-        font-size: 2.2em;
+        font-size: 3.4em;
     }
 
     .projectsWrapper {
