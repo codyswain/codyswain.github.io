@@ -100,48 +100,6 @@ body {
     font-size: 14px;
 }
 
-.main-displaybox-project-box {
-    width: 30%;
-    height: 40%;
-    border-radius: .3em;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-.main-displaybox-project-box:hover {
-    opacity: .9;
-    cursor: pointer;
-}
-
-.displaybox2 {
-    display: none;
-    opacity: 0;
-    position: absolute;
-    right: 8%;
-    top: 30%;
-    width: 45em;
-    height: 45em;
-    background-color: white;
-    transition: all .1s ease;
-    border-radius: 2em;
-    align-items: center;
-    justify-content: center;
-    -webkit-animation:spin 100s linear infinite;
-    -moz-animation:spin 100s linear infinite;
-    animation:spin 100s linear infinite;
-}
-
-.displaybox2 p {
-    font-size: 12px;
-    font-family: roboto;
-}
-
-@-moz-keyframes spin { 100% {-moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 hr {
     display: block;
     width: 90%;
@@ -175,7 +133,8 @@ hr {
 
 .projects-title {
     left: 50%;
-    margin-top: 8em;
+    margin-top: 4em;
+    margin-bottom: 2em;
     height: 4em;
     width: 100%;
     background-color: white;
@@ -191,47 +150,36 @@ hr {
     font-size: 40px;
     font-weight: 300;
 }
-.projects-title-small {
-    margin: 0;
-    font-family: roboto;
-    font-size: 20px;
-    font-weight: 300;
-}
 
 .projectsWrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-#project1 {
-    margin: 4em;
+.project {
     height: 40.5em;
-    width: 28em;
+    width: 26em;
+    border-radius: 1em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#color1 {
     background-image: linear-gradient(-90deg,#5a40d8,#d84add);
-    border-radius: 1em;
-	padding: 1em;
-
 }
-#project2 {
-    margin: 4em;
-    height: 40.5em;
-    width: 28em;
+#color2 {
     background-image: linear-gradient(-90deg,#4064d8,#4ad8dd);
-    border-radius: 1em;
-    padding: 1em;
 }
-#project3 {
-    margin: 4em;
-    height: 40.5em;
-    width: 28em;
+#color3 {
     background-image: linear-gradient(-90deg,#0da382,#67e44e);
-    border-radius: 1em;
-    padding: 1em;
 }
 .project-title {
-    margin: 0 auto;
     height: 8em;
     width: 95%;
     background-color: black;
@@ -243,15 +191,15 @@ hr {
 .project-title p {
     font-family: roboto;
     font-size: 40px;
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
+
 .project-description {
     margin: 0 auto;
     margin-top: 1em;
     width: 95%;
     height: 31em;
-    background-color: black;
+    background-color: black; 
     color: white;
     display: flex;
     align-items: center;
@@ -265,9 +213,8 @@ hr {
 .project-logo {
     height: 90%;
 }
-
 .project-logo-extruder {
-    height: 84%;
+    height: 79%;
 }
 
 /* --------------------- Particle.js Styling ------------------------------ */
@@ -286,7 +233,20 @@ hr {
 }
 
 
-/* ----------------------- Mobile Styling --------------------------------- */
+
+/* --------------------- Smaller Browser Screen --------------------------- */
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1400px) {
+    .projectsWrapper {
+        top: 0;
+        height: 140em;
+        flex-direction: column;
+    }
+}
+
+
+/* ----------------------- Mobile Screen ---------------------------------- */
 /* ------------------------------------------------------------------------ */
 @media only screen and (max-device-width: 600px) {
     /* Remove the gradient */ 
@@ -320,11 +280,9 @@ hr {
         justify-content: center;
         font-size: 0em;
     }
-
     .main-displaybox {
         width: 82%;
     }
-
     .navbar {
         height: 8%;
         width: 100%;
@@ -332,18 +290,36 @@ hr {
     .nav-title {
         display: none;
     }
-    .navbar ul {
-    }
     .navbar li {
         margin: .35em;
     }
     .nav-button {
         font-size: 3.4em;
     }
-
     .projectsWrapper {
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        height: 300em;
+    }
+    .project {
+        width: 80%;
+        height: 90em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .project-title {
+        height: 12%;
+        width: 95%;
+    }
+    .project-title p {
+        font-family: roboto;
+        font-size: 3em;
+        font-weight: 400;  
+    }
+    .project-description {
+        height: 80%;
+    }
+    .project-logo-extruder {
+        width: 90%;
     }
 }
