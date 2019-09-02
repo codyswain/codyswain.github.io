@@ -138,6 +138,7 @@ hr {
     position: absolute;
     height: 100%;
     z-index: -1;
+    opacity: 1;
 }
 
 .main-artwork {
@@ -268,7 +269,7 @@ hr {
     align-self: center;
     
     width: 90%;
-    height: 86%;
+    height: 26em;
 
     border-radius: 1em;
         
@@ -278,19 +279,25 @@ hr {
 }
 
 .experience-card-photo {
-    width: 60%;
+    width: 65%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.experience-photo {
+    height: 100%;
+    width: 90%;
 }
 
 .experience-card-text {
-    width: 40%;
+    width: 35%;
     height: 100%;
     
     display: grid;
-    grid-template-rows: 6% 6% 6% 78%;
+    grid-template-rows: 12% 6% 6% 72%;
 }
 
 .experience-card-text-title {
