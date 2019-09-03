@@ -406,14 +406,13 @@ hr {
         font-size: 3em;
     }
     .main-text-title {
-        top: 0;
         left: 0;
         width: 100%;
         height: 95%;
         background-image: linear-gradient(rgba(33, 126, 189, 1),
                                           rgba(174, 50, 224, .4),
                                           rgba(255, 255, 255, 0));
-        color: white;
+        color: black;
         display: flex;
         justify-content: center;
         font-size: 0em;
@@ -435,19 +434,22 @@ hr {
         font-size: 3.4em;
     }
     .projectsWrapper {
+        height: 230em;
         flex-direction: column;
-        height: 300em;
     }
     .project {
-        width: 80%;
-        height: 90em;
+        width: 50em;
+        height: 70em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
+    .projects-title {
+        padding-top: 10em;
+    }
     .project-title {
         height: 12%;
-        width: 95%;
+        width: 90%;
     }
     .project-title p {
         font-family: roboto;
@@ -456,8 +458,75 @@ hr {
     }
     .project-description {
         height: 80%;
+        width: 90%;
     }
     .project-logo-extruder {
         width: 90%;
+    }
+    .project-logo {
+        width: 90%;
+    }
+
+    /* Experience parts */
+    .experience {
+        margin-top: 92vh;
+        padding-top: 14em;
+        height: 250em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .experience-card {
+        height: 60em;
+        flex-direction: column;
+    }
+
+    .experience-card-text {
+        width: 90%;
+        height: 20%;
+    }
+
+    .experience-card-photo {
+        width: 94%;
+    }
+
+    .experience-card-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .experience-card-text-title {
+        display: none;
+    }
+
+    .experience-card-text-position {
+        font-size: 4em;
+        padding: 0;
+    }
+
+    .experience-card-text-body {
+        font-size: 3em;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-links-container {
+        left: 0;
+        top: 20%;
+        width: 100%;
+        height: 20%;
+
+        flex-direction: column;
+    }
+
+    .main-links-logos {
+        width: 10em;
+        height: 10em;
     }
 }
