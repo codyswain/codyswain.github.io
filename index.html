@@ -7,47 +7,28 @@
   </script>
   <meta name=”viewport” content=”width=device-width, initial-scale=1″>
 </head>
-
 <body>
 
   <!---------------------------- Navbar ---------------------------------------->
   <!---------------------------------------------------------------------------->  
-  <div class="navbar shadow">
-    <div class="nav-title">
-      <a href="#main" style="text-decoration: none; color:black">Cody Swain</a>
-    </div>
-    <ul>
-      <li class="nav-button">
-        <a href="#splash" class="nav-text">Home</a>
-      </li>
-      
-      <li class="nav-button">
-        <a href="#projects" class="nav-text">Projects</a>
-      </li>
-      
-      <li class="nav-button">
-        <a href="#experience" class="nav-text">Experience</a>
-      </li>
-      
-      <li class="nav-button">
-        <a href="#about" class="nav-text">About</a>
-      </li>
-    </ul>
+  <div class="navbar shadow font-sf">
+    <div class="nav-title"><a href="#home">Cody Swain</a></div>
+    <div class="nav-button"><a href="#home" class="nav-text">Home</a></div>
+    <div class="nav-button"><a href="#projects" class="nav-text">Projects</a></div>
+    <div class="nav-button"><a href="#experience" class="nav-text">Experience</a></div>
+    <div class="nav-button"><a href="#about" class="nav-text">About</a></div>
   </div>
-  
   
   <!------------------------ Main Splash Page ---------------------------------->
   <!---------------------------------------------------------------------------->
-  <div id="splash" class="page">
+  <div id="home">
     <img class="main-gradient"
          src="assets/main-gradient.svg"
          alt="Main gradient">
-   
-    <!-- Site Introduction Text --> 
-    <div class="main-text-title">
+    
+    <div class="main-text-title font-sf">
       <p>Computer Science and Engineering @ UCLA</p>
     </div>
-
     <div class="main-links-container">
       <a href="https://github.com/codyswain">
         <img class="main-links-logos"
@@ -60,18 +41,6 @@
              alt="Github Icon">
       </a>
     </div>
-
-    
-    <!-- Blog Posts Box --> 
-    <!-- <div class="main-displaybox shadow">
-      <p class="main-displaybox-header-text">Some relevant links</p>
-      <hr/>
-      <div class="main-displaybox-body-text">
-        <ul class="blog-list">
-          <li>This site is being worked on as of 8/23/19.</li>
-        </ul>
-      </div>
-    </divw -->
     
     <!-- Particles Animation -->
     <div class="main-particles">
@@ -83,12 +52,11 @@
       <script src="particles.js"></script>
     </div>
   </div>
-
   
   <!------------------------- Projects Page ------------------------------------>
   <!---------------------------------------------------------------------------->
   
-  <div id="projects" class="page">
+  <div id="projects" class="projects-page">
     <div class="projects-title">
       <p class="projects-title-large">
         Here are some projects I've worked on recently.
@@ -159,9 +127,12 @@
           <ul>
             <li>
               Assisting with the 50th Anniversary of the Birth of the Internet,
-              with industry leaders such as <i>Eric Schmidt, Mark Cuban, Henry Samueli,
-              Jameela Jamil, Vint Cerf, Patrisse Cullors, Jamie Dimon,
-              Ashton Kutcher, and Peter Thiel </i>
+              with industry leaders such as
+              <i>
+                Eric Schmidt, Mark Cuban, Henry Samueli,
+                Jameela Jamil, Vint Cerf, Patrisse Cullors, Jamie Dimon,
+                Ashton Kutcher, and Peter Thiel
+              </i>
             </li>
             <li>
               Designing and publishing digital media content via UCLA's Engineering

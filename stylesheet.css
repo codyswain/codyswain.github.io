@@ -1,18 +1,40 @@
+/* Cody Swain */ 
+
+/* Import roboto font */ 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 
+
+a {
+    text-decoration: none;
+    color: black;
+}
 body {
     margin: 0 auto;
     font-family: Helvetica;
+
+
+    
+}
+#home {
+    position: relative;
+    height: 100vh; 
+}
+.projects-page {
+    display: flex;
+    flex-direction: column;
+}
+.shadow {
+    -moz-box-shadow: 0 0 3px 1px #888;
+    -webkit-box-shadow: 0 0 3px 1px #888;
+    box-shadow:	0 0 3px 1px #888;
 }
 
-.page {
-    position: relative;
-    height: 100vh;
+.font-sf {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* -------------------------- Navigation Bar ------------------------------ */
 /* ------------------------------------------------------------------------ */
-
 .navbar {
     position: fixed;
     width: 100%;
@@ -28,25 +50,15 @@ body {
     margin-right: 1em;
     font-size: 1.5em;
     font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-}
-.navbar li {
-    display: inline;
-    list-style-type: none;
+    color: black;
 }
 .nav-button {
-    margin-right: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     font-size: 1.2em;
-
 }
 .nav-text {
-    text-decoration: none;
     font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #677282;
 }
 
@@ -59,7 +71,6 @@ body {
     left: 6%;
     top: 8%;
     width: 10em;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 50px;
     font-weight: 400;
     color: white;
@@ -148,12 +159,6 @@ hr {
     bottom: -10em;
     background-color: none;
     width: 56em;
-}
-
-.shadow {
-    -moz-box-shadow: 0 0 3px 1px #888;
-    -webkit-box-shadow: 0 0 3px 1px #888;
-    box-shadow:	0 0 3px 1px #888;
 }
 
 .projects-title {
@@ -503,8 +508,7 @@ hr {
 
 @media only screen and (max-width: 1400px) {
     .projectsWrapper {
-        top: 0;
-        height: 140em;
+        display: flex; 
         flex-direction: column;
     }
 }
@@ -560,7 +564,8 @@ hr {
         font-size: 3.4em;
     }
     .projectsWrapper {
-        height: 230em;
+        display: flex;
+        
         flex-direction: column;
     }
     .project {
