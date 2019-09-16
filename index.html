@@ -11,7 +11,7 @@
 
   <!---------------------------- Navbar ---------------------------------------->
   <!---------------------------------------------------------------------------->  
-  <div class="navbar shadow font-sf">
+  <div class="nav shadow font-sf">
     <div class="nav-title"><a href="#home">Cody Swain</a></div>
     <div class="nav-button"><a href="#home" class="nav-text">Home</a></div>
     <div class="nav-button"><a href="#projects" class="nav-text">Projects</a></div>
@@ -43,54 +43,40 @@
     </div>
     
     <!-- Particles Animation -->
-    <div class="main-particles">
-      <div id="particles-js"></div>
-      <script
-        crossorigin="anonymous"
-        src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
-      </script>
-      <script src="particles.js"></script>
-    </div>
+    <div id="particles-js"></div>
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+    </script>
+    <script src="particles.js"></script>
   </div>
   
   <!------------------------- Projects Page ------------------------------------>
   <!---------------------------------------------------------------------------->
-  
   <div id="projects" class="projects-page">
     <div class="projects-title">
-      <p class="projects-title-large">
-        Here are some projects I've worked on recently.
-      </p>
+      <p class="projects-title-large">Here are some projects I've worked on recently.</p>
     </div>
-    <div class="projectsWrapper">
-
+    <div class="projects-cards">
       <a href="slideapp.html">
         <div class="project shadow" id="color1">
-          <div class="project-title">
-	    <p>Slide App</p>
-          </div>
+          <div class="project-title"><p>Slide App</p></div>
           <div class='project-description'>
 	    <img class="project-logo" src="assets/cherishly.svg"/>
           </div>
         </div>
       </a>
-      
       <a href="3dprinter.html">
         <div class="project shadow" id="color2">
-          <div class="project-title">
-	    <p>3D Printer</p>
-          </div>
+          <div class="project-title"><p>3D Printer</p></div>
           <div class='project-description'>
 	    <img class="project-logo-extruder" src="assets/extruder.png"/>
           </div>
         </div>
       </a>
-
       <a href="ionthruster.html">
         <div class="project shadow" id="color3">
-          <div class="project-title">
-	    <p>Ion Thruster</p>
-          </div>
+          <div class="project-title"><p>Ion Thruster</p></div>
           <div class='project-description'>
 	    <img class="project-logo" src="assets/ionthruster.svg"/>
           </div>
@@ -104,9 +90,7 @@
   <div id="experience" class="experience">
 
     <div class="experience-title">
-      <p class="experience-title-large">
-        Experience
-      </p>
+      <p class="experience-title-large">Experience</p>
     </div>
 
     <div class="experience-card">
@@ -116,12 +100,8 @@
       </div>
       <div class="experience-card-text">
         <div></div>
-        <div class="experience-card-text-title">
-           UCLA Engineering
-        </div>
-        <div class="experience-card-text-position">
-            Marketing Intern
-        </div>
+        <div class="experience-card-text-title">UCLA Engineering</div>
+        <div class="experience-card-text-position">Marketing Intern</div>
         <div class="experience-card-text-body">
           Sep. 2019 - Present
           <ul>
@@ -339,7 +319,7 @@
 
     <div class="about-content">    
       <div class="about-photo">
-        <img src="assets/me.jpg">
+        <img class="shadow" src="assets/me.jpg">
       </div>
 
       <div class="about-text">
