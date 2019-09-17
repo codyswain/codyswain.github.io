@@ -1,0 +1,18 @@
+.project-page-body {
+    height: 100vh;
+    padding-left: 5em;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#login-img {
+    height: 40em;
+}
+
+#home-img {
+    height: 49em;
+}
+
+
