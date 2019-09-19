@@ -31,6 +31,7 @@ body {
     background-color: white;
 }
 .projects-page {
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
 }
@@ -75,14 +76,14 @@ body {
 .nav-title {
     margin-left: 1em;
     margin-right: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 300;
     color: black;
 }
 .nav-button {
     margin-left: 1.5em;
     margin-right: 1.5em;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .nav-text {
     font-weight: 300;
@@ -283,6 +284,7 @@ hr {
 /* ---------------------- Experience Styling ------------------------------ */
 /* ------------------------------------------------------------------------ */
 .experience {
+    margin-top: 4em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -463,8 +465,7 @@ hr {
 
 .about img {
     height: 90%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
 }
 
 .about-profile-img {
@@ -580,24 +581,27 @@ hr {
     .main-displaybox {
         width: 82%;
     }
-    .navbar {
+    .nav {
         height: 8%;
         width: 100%;
+
+        justify-content: space-evenly;
     }
     .nav-title {
         display: none;
     }
-    .navbar li {
-        margin: .35em;
-    }
     .nav-button {
         font-size: 3.4em;
+        margin-left:0;
+        margin-right:0;
     }
     .projects-cards {
         display: flex;
         flex-direction: column;
     }
     .project {
+        margin-top: 4em;
+        margin-bottom: 4em;
         width: 50em;
         height: 70em;
         display: flex;
@@ -629,17 +633,18 @@ hr {
 
     /* Experience parts */
     .experience {
-        margin-top: 92vh;
-        padding-top: 6em;
-        height: 250em;
-
+        margin-top: 40em;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
-
+    .experience-title p{
+        font-size: 8em;
+    }
     .experience-card {
-        height: 60em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+        display: flex;
         flex-direction: column;
     }
 
@@ -664,7 +669,9 @@ hr {
     }
 
     .experience-card-text-position {
-        font-size: 4em;
+        font-size: 3em;
+        width: 100%;
+        text-align: left;
         padding: 0;
     }
 
@@ -673,7 +680,7 @@ hr {
         align-items: center;
         justify-content: center;
         padding: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .main-links-container {
@@ -693,25 +700,39 @@ hr {
     .about {
         padding-top: 6em;
         flex-direction: column;
-        height: 170em;
+        display: flex;
+        height: auto;
     }
-
+    .about-content {
+        flex-direction: column;
+        height: auto;
+    }
     .about-photo {
+        margin-top: 4em;
         width: 100%;
+        height: 100%;
+        margin-bottom: 4em;
     }
+    
     .about img{
-        width: 90%;
-
-        border-radius: 1em;
+        width: 56em;
     }
     .about-text {
         width: 90%;
     }
+    .about-profile-body {
+        top: 60%;
+        left: 8%;
+        font-size: 2.5em;
+    }
     .about-text-title{
-        font-size: 8em;
+        font-size: 2em;
+    }
+    #resume {
+        margin-left: 0;
     }
     .about-text-body {
-        font-size: 5em;
+        font-size: 3em;
     }
 
     
